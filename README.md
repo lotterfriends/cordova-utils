@@ -1,6 +1,6 @@
 # cordova-utils
 
 ```
-npm install --save archiver async phonegap prompt shelljs when xmldom
+npm install --save archiver async phonegap-build-api prompt shelljs when xmldom
 ```
 
