@@ -1,0 +1,28 @@
+{
+  "name": "cordova-utils",
+  "version": "1.0.0",
+  "description": "``` npm install --save archiver async phonegap prompt shelljs when xmldom ```",
+  "main": "cleanup-cordova.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotterfriends/cordova-utils.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lotterfriends/cordova-utils/issues"
+  },
+  "homepage": "https://github.com/lotterfriends/cordova-utils#readme",
+  "dependencies": {
+    "archiver": "^0.14.4",
+    "async": "^1.4.2",
+    "phonegap-build-api": "^0.3.3",
+    "prompt": "^0.2.14",
+    "shelljs": "^0.5.3",
+    "when": "^3.7.3",
+    "xmldom": "^0.1.19"
+  }
+}
