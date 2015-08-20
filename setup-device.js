@@ -19,7 +19,9 @@ if (device === 'all') {
 } else {
   commands.push('cordova platform add ' + device);
 }
-commands.push('cordova browser add crosswalk');
+if (device === 'android') {
+  commands.push('cordova browser add crosswalk'); 
+}
 commands.push('node scripts/install-cordova-plugins.js');
 
 async.eachSeries(commands, function _iterator(command, callback) {
