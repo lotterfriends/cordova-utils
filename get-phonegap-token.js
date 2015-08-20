@@ -21,7 +21,7 @@ var schema = {
 };
 
 var getPhonegapData = function() {
-  mkdir('-p', config.phonegapTokenPath.substring(config.phonegapTokenPath.lastIndexOf('/'), config.phonegapTokenPath.length));
+  mkdir('-p', config.phonegapTokenPath.substring(0, config.phonegapTokenPath.lastIndexOf('/')));
   prompt.start();
   prompt.get(schema, function(err, result) {
     client.auth({username: result.name, password: result.password}, function(e, api) {
